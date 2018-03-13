@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2016 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,10 +13,7 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Primary color of the app (shown in the app bar) -->
     <color name="primary_color">#616161</color>
-
-    <!-- Primary dark color of the app (shown in the status bar) -->
     <color name="primary_dark_color">#616161</color>
     <color name="grey">#757575</color>
     <color name="red">#F44336</color>

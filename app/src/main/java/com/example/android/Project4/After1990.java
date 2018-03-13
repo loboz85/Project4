@@ -14,7 +14,6 @@ public class After1990 extends AppCompatActivity {
         setContentView(R.layout.after_1990);
 
 
-
         // Create a list of music
         ArrayList<Word> words = new ArrayList<Word>();
         words.add(new Word(R.drawable.sheltering,"The Sheltering Sky Theme", "The Sheltering Sky","Ryuichi Sakamoto"));

@@ -16,15 +16,15 @@ public class After2000 extends AppCompatActivity {
 
         // Create a list of music
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word(R.drawable.gladiator,"Now We Are Free", "Gladiator","Hans Zimmer"));
-        words.add(new Word(R.drawable.amelie,"Closer", "Amelia","Yann Tiersen"));
-        words.add(new Word(R.drawable.closer,"The Blower's Daughter", "Closer","Damien Rice"));
-        words.add(new Word(R.drawable.barcelona,"Barcelona", "Giulia y Los Tellarini","Giulia y Los Tellarini"));
-        words.add(new Word(R.drawable.intouchables,"Fly", "Intouchables","Ludovico Einaudi"));
+        words.add(new Word(R.drawable.gladiator, "Now We Are Free", "Gladiator", "Hans Zimmer"));
+        words.add(new Word(R.drawable.amelie, "Closer", "Amelia", "Yann Tiersen"));
+        words.add(new Word(R.drawable.closer, "The Blower's Daughter", "Closer", "Damien Rice"));
+        words.add(new Word(R.drawable.barcelona, "Barcelona", "Giulia y Los Tellarini", "Giulia y Los Tellarini"));
+        words.add(new Word(R.drawable.intouchables, "Fly", "Intouchables", "Ludovico Einaudi"));
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        WordAdapter adapter =   new WordAdapter(this, words);
+        WordAdapter adapter = new WordAdapter(this, words);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the

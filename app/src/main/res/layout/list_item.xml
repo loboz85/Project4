@@ -11,7 +11,7 @@
         android:layout_width="@dimen/cover"
         android:layout_height="@dimen/cover"
         android:layout_margin="@dimen/margin_list"
-        android:gravity="center"/>
+        android:gravity="center" />
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -24,27 +24,27 @@
             android:id="@+id/composer_text_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="@dimen/composer_size"
+            android:layout_margin="@dimen/margin_list"
             android:textColor="@color/composer"
-            android:textStyle="bold"
-            android:layout_margin="@dimen/margin_list" />
+            android:textSize="@dimen/composer_size"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/movie_text_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="@dimen/movie_size"
-            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/margin_list"
             android:layout_marginLeft="@dimen/margin_list"
-            android:layout_marginBottom="@dimen/margin_list" />
+            android:textSize="@dimen/movie_size"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/song_text_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:textSize="@dimen/song_size"
+            android:layout_marginBottom="@dimen/margin_list"
             android:layout_marginLeft="@dimen/margin_list"
-            android:layout_marginBottom="@dimen/margin_list" />
+            android:textSize="@dimen/song_size" />
 
     </LinearLayout>
 

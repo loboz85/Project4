@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * Created by loboz on 06.03.2018.
  */
 
-public class WordAdapter extends ArrayAdapter<Word>  {
+public class WordAdapter extends ArrayAdapter<Word> {
 
     public WordAdapter(Activity context, ArrayList<Word> words) {
         // Here, we initialize the ArrayAdapter's internal storage for the context and the list.
@@ -28,13 +28,13 @@ public class WordAdapter extends ArrayAdapter<Word>  {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
-        if(listItemView == null) {
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
 
         // Get the {@link AndroidFlavor} object located at this position in the list
-        Word currentWord= getItem(position);
+        Word currentWord = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name
         TextView composerTextView = (TextView) listItemView.findViewById(R.id.composer_text_view);
@@ -60,7 +60,7 @@ public class WordAdapter extends ArrayAdapter<Word>  {
         // set this text on the number TextView
         Image.setImageResource(currentWord.getImageResourceId());
 
-        // Return the whole list item layout (containing 2 TextViews and an ImageView)
+        // Return the whole list item layout
         // so that it can be shown in the ListView
         return listItemView;
     }
