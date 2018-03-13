@@ -14,17 +14,16 @@
 -->
 <resources>
     <!-- Title for the application. [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok</string>
+    <string name="app_name">Favourite Soundtracks</string>
+    <!-- Category name for songs after 2010 [CHAR LIMIT=20] -->
+    <string name="after_2010">Music 2010s</string>
+    <!-- Category name for songs after 2000 [CHAR LIMIT=20] -->
+    <string name="after_2000">Music 2000s</string>
+    <!-- Category name for songs before 1990 [CHAR LIMIT=20] -->
+    <string name="before_1990">Music before 90s</string>
+    <!-- Category name for songs after 1990 [CHAR LIMIT=20] -->
+    <string name="after_1990">Music 90s</string>
+    <!-- Category name for songs after 1993[CHAR LIMIT=20] -->
+    <string name="after_1993">Music 90s vol. II</string>
 
-    <!-- Category name for phrases [CHAR LIMIT=20] -->
-    <string name="category_phrases">Phrases</string>
-
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Colors</string>
-
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
-    <string name="category_numbers">Numbers</string>
-
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
-    <string name="category_family">Family Members</string>
 </resources>

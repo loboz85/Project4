@@ -13,9 +13,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.android.miwok;
+package com.example.android.Project4;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -31,64 +30,72 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        // Find the View that shows the numbers category
-        TextView numbers = (TextView) findViewById(R.id.numbers);
+        // Find the View that shows the before 1990 category
+        TextView before_1990 = (TextView) findViewById(R.id.before_1990);
 
         // Set a click listener on that View
-        numbers.setOnClickListener(new View.OnClickListener() {
+        before_1990.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);
-                startActivity(numbersIntent);
+                Intent before_1990Intent = new Intent(MainActivity.this, Before1990.class);
+                startActivity(before_1990Intent);
             }
         });
 
-        // Find the View that shows the family category
-        TextView family = (TextView) findViewById(R.id.family);
+        // Find the View that shows the after 1990 category
+        TextView after_1990 = (TextView) findViewById(R.id.after_1990);
 
         // Set a click listener on that View
-        family.setOnClickListener(new View.OnClickListener() {
+        after_1990.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the family View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent familyIntent = new Intent(MainActivity.this, FamilyActivity.class);
-                startActivity(familyIntent);
+                Intent after_1990Intent = new Intent(MainActivity.this, After1990.class);
+                startActivity(after_1990Intent);
             }
         });
 
-        // Find the View that shows the phrases category
-        TextView phrases = (TextView) findViewById(R.id.phrases);
+        // Find the View that shows the after 2010 category
+        TextView after_2010 = (TextView) findViewById(R.id.after_2010);
 
         // Set a click listener on that View
-        phrases.setOnClickListener(new View.OnClickListener() {
+        after_2010.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the phrases View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent phrasesIntent = new Intent(MainActivity.this, PhrasesActivity.class);
-                startActivity(phrasesIntent);
+                Intent after_2010Intent = new Intent(MainActivity.this, After2010.class);
+                startActivity(after_2010Intent);
             }
         });
 
-        // Find the View that shows the colors category
-        TextView colors = (TextView) findViewById(R.id.colors);
+        // Find the View that shows the after 2000 category
+        TextView after_2000 = (TextView) findViewById(R.id.after_2000);
 
         // Set a click listener on that View
-        colors.setOnClickListener(new View.OnClickListener() {
+        after_2000.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the colors View is clicked on.
             @Override
             public void onClick(View view) {
-                Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
-                startActivity(colorsIntent);
+                Intent after_2000Intent = new Intent(MainActivity.this, After2000.class);
+                startActivity(after_2000Intent);
+            }
+        });
+
+        // Find the View that shows the after 1993 category
+        TextView after_1993 = (TextView) findViewById(R.id.after_1993);
+
+        // Set a click listener on that View
+        after_1993.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent after_1993Intent = new Intent(MainActivity.this, After1993.class);
+                startActivity(after_1993Intent);
             }
         });
 
     }
-//
-//    public void openNumbersList (View view){
-//        Intent openNumbers = new Intent(this, NumbersActivity.class);
-//        startActivity(openNumbers);
-//    }
 
 
 }

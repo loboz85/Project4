@@ -14,8 +14,20 @@
 -->
 <resources>
     <!-- Height of each list item -->
-    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="list_item_height">60dp</dimen>
     <!-- Default screen margins, per the Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">4dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="view">1dp</dimen>
+    <dimen name="height">85dp</dimen>
+    <dimen name="margin_view">16dp</dimen>
+    <dimen name="margin_arrow">40dp</dimen>
+    <dimen name="margin_arrow_land">230dp</dimen>
+    <dimen name="margin_list">5dp</dimen>
+    <dimen name="cover">60dp</dimen>
+    <dimen name="composer_size">14sp</dimen>
+    <dimen name="movie_size">12sp</dimen>
+    <dimen name="song_size">10sp</dimen>
+    <dimen name="play">30sp</dimen>
+    <dimen name="play_margin">15sp</dimen>
 </resources>
