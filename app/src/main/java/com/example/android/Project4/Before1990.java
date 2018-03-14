@@ -36,6 +36,10 @@ public class Before1990 extends AppCompatActivity {
         listView.setAdapter(adapter);
 
 
+        // set up back button on ActionBar, that moves user back to MainActivity screen
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
         }
     }
 

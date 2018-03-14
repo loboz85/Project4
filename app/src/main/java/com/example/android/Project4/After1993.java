@@ -34,5 +34,8 @@ public class After1993 extends AppCompatActivity {
         // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
+
+        // set up back button on ActionBar, that moves user back to MainActivity screen
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

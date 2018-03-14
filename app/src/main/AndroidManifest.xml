@@ -31,19 +31,24 @@
         </activity>
         <activity
             android:name="com.example.android.Project4.Before1990"
-            android:label="@string/before_1990" />
+            android:label="@string/before_1990"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name="com.example.android.Project4.After2010"
-            android:label="@string/after_2010" />
+            android:label="@string/after_2010"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name="com.example.android.Project4.After1990"
-            android:label="@string/after_1990" />
+            android:label="@string/after_1990"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name="com.example.android.Project4.After2000"
-            android:label="@string/after_2000"></activity>
+            android:label="@string/after_2000"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name="com.example.android.Project4.After1993"
-            android:label="@string/after_1993"></activity>
+            android:label="@string/after_1993"
+            android:parentActivityName=".MainActivity"></activity>
 
     </application>
 
