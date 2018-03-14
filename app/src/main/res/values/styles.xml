@@ -20,14 +20,14 @@
         <item name="colorPrimaryDark">@color/grey</item>
     </style>
 
-    <!-- Style for a category of vocabulary words -->
+    <!-- Style for a category of vocabulsoundtracksords -->
     <style name="CategoryStyle">
-        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_width">@dimen/width_maina</item>
         <item name="android:layout_height">@dimen/list_item_height</item>
         <item name="android:gravity">center_vertical</item>
-        <item name="android:padding">16dp</item>
+        <item name="android:padding">@dimen/padding_maina</item>
         <item name="android:textColor">@color/red</item>
-        <item name="android:height">20dp</item>
+        <item name="android:height">@dimen/height_maina</item>
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 </resources>

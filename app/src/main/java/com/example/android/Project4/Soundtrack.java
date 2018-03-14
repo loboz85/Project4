@@ -4,10 +4,10 @@ package com.example.android.Project4;
  * Created by loboz on 05.03.2018.
  */
 /**
- * {@link Word} represents a vocabulary word that the user wants to learn.
- * * It contains a default translation and a Miwok translation for that word.
+ * {@link Soundtrack} represents sountrack tha user will listen.
+ * * It contains a song title, image, author/composer, movie title.
  */
-public class Word {
+public class Soundtrack {
     /** song title */
     private String mSong;
 
@@ -33,7 +33,7 @@ public class Word {
      *
      * @param ComposerPlay - composer name
      */
-    public Word(int imageResourceId, String songPlay, String moviePlay, String ComposerPlay) {
+    public Soundtrack(int imageResourceId, String songPlay, String moviePlay, String ComposerPlay) {
         mImage = imageResourceId;
         mComposer = ComposerPlay;
         mMovie= moviePlay;

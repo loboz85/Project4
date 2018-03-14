@@ -15,24 +15,24 @@ public class After2000 extends AppCompatActivity {
 
 
         // Create a list of music
-        ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word(R.drawable.gladiator, "Now We Are Free", "Gladiator", "Hans Zimmer"));
-        words.add(new Word(R.drawable.amelie, "Closer", "Amelia", "Yann Tiersen"));
-        words.add(new Word(R.drawable.closer, "The Blower's Daughter", "Closer", "Damien Rice"));
-        words.add(new Word(R.drawable.barcelona, "Barcelona", "Giulia y Los Tellarini", "Giulia y Los Tellarini"));
-        words.add(new Word(R.drawable.intouchables, "Fly", "Intouchables", "Ludovico Einaudi"));
+        ArrayList<Soundtrack> soundtracks = new ArrayList<Soundtrack>();
+        soundtracks.add(new Soundtrack(R.drawable.gladiator, "Now We Are Free", "Gladiator", "Hans Zimmer"));
+        soundtracks.add(new Soundtrack(R.drawable.amelie, "Closer", "Amelia", "Yann Tiersen"));
+        soundtracks.add(new Soundtrack(R.drawable.closer, "The Blower's Daughter", "Closer", "Damien Rice"));
+        soundtracks.add(new Soundtrack(R.drawable.barcelona, "Barcelona", "Giulia y Los Tellarini", "Giulia y Los Tellarini"));
+        soundtracks.add(new Soundtrack(R.drawable.intouchables, "Fly", "Intouchables", "Ludovico Einaudi"));
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link SountrackAdapter}, whose data source is a list of {@link Soundtrack}s. The
         // adapter knows how to create list items for each item in the list.
-        WordAdapter adapter = new WordAdapter(this, words);
+        SountrackAdapter adapter = new SountrackAdapter(this, soundtracks);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // before_1990.xml layout file.
         ListView listView = (ListView) findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
+        // Make the {@link ListView} use the {@link SountrackAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Soundtrack} in the list.
         listView.setAdapter(adapter);
 
         // set up back button on ActionBar, that moves user back to MainActivity screen
