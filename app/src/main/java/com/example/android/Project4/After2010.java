@@ -14,7 +14,7 @@ public class After2010 extends AppCompatActivity {
         setContentView(R.layout.after2010);
 
         // Create a list of music
-        ArrayList<Soundtrack> soundtracks = new ArrayList<Soundtrack>();
+        ArrayList<Soundtrack> soundtracks = new ArrayList<>();
         soundtracks.add(new Soundtrack(R.drawable.skyfall, "Skyfall", "Skyfall", "Adele"));
         soundtracks.add(new Soundtrack(R.drawable.penny, "Be True", "Penny Dreadful", "Abel Korzeniowski"));
         soundtracks.add(new Soundtrack(R.drawable.spectre, "Writing's On The Wall", "Spectre", "Sam Smith"));

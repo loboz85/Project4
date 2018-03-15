@@ -15,7 +15,7 @@ public class After1990 extends AppCompatActivity {
 
 
         // Create a list of music
-        ArrayList<Soundtrack> soundtracks = new ArrayList<Soundtrack>();
+        ArrayList<Soundtrack> soundtracks = new ArrayList<>();
         soundtracks.add(new Soundtrack(R.drawable.sheltering,"The Sheltering Sky Theme", "The Sheltering Sky","Ryuichi Sakamoto"));
         soundtracks.add(new Soundtrack(R.drawable.weronika,"Les Marionnettes", "The Sheltering Sky","Zbigniew Preisner"));
         soundtracks.add(new Soundtrack(R.drawable.bodyguard,"I Will Always Love You", "The Bodyguard","Whitney Houston"));

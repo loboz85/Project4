@@ -15,7 +15,7 @@ public class After2000 extends AppCompatActivity {
 
 
         // Create a list of music
-        ArrayList<Soundtrack> soundtracks = new ArrayList<Soundtrack>();
+        ArrayList<Soundtrack> soundtracks = new ArrayList<>();
         soundtracks.add(new Soundtrack(R.drawable.gladiator, "Now We Are Free", "Gladiator", "Hans Zimmer"));
         soundtracks.add(new Soundtrack(R.drawable.amelie, "Closer", "Amelia", "Yann Tiersen"));
         soundtracks.add(new Soundtrack(R.drawable.closer, "The Blower's Daughter", "Closer", "Damien Rice"));

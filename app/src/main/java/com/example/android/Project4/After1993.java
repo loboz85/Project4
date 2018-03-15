@@ -15,7 +15,7 @@ public class After1993 extends AppCompatActivity {
 
 
         // Create a list of music
-        ArrayList<Soundtrack> soundtracks = new ArrayList<Soundtrack>();
+        ArrayList<Soundtrack> soundtracks = new ArrayList<>();
         soundtracks.add(new Soundtrack(R.drawable.schindler, "Theme", "John Williams", "John Williams"));
         soundtracks.add(new Soundtrack(R.drawable.gump, "Suita", "Forrest Gump", "Alan Silvestri"));
         soundtracks.add(new Soundtrack(R.drawable.hill, "She", "Notting Hill", "Elvis Costello"));

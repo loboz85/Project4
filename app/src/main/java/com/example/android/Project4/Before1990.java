@@ -15,7 +15,7 @@ public class Before1990 extends AppCompatActivity {
 
 
         // Create a list of music
-        ArrayList<Soundtrack> soundtracks = new ArrayList<Soundtrack>();
+        ArrayList<Soundtrack> soundtracks = new ArrayList<>();
         soundtracks.add(new Soundtrack(R.drawable.rain,"Singing In The Rain", "Singin' in the Rain","Gene Kelly"));
         soundtracks.add(new Soundtrack(R.drawable.tiffany,"Moon River", "Breakfast at Tiffany's","Henry Mancini"));
         soundtracks.add(new Soundtrack(R.drawable.love,"Love Story", "Love Story","Francis Lai"));
