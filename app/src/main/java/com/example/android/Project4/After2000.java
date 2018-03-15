@@ -11,7 +11,7 @@ public class After2000 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.after_2000);
+        setContentView(R.layout.after2000);
 
 
         // Create a list of music
@@ -28,8 +28,8 @@ public class After2000 extends AppCompatActivity {
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // before_1990.xml layout file.
-        ListView listView = (ListView) findViewById(R.id.list);
+        // before1990xml layout file.
+        ListView listView = findViewById(R.id.list);
 
         // Make the {@link ListView} use the {@link SountrackAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Soundtrack} in the list.

@@ -37,19 +37,19 @@ public class SountrackAdapter extends ArrayAdapter<Soundtrack> {
         Soundtrack currentSoundtrack = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name
-        TextView composerTextView = (TextView) listItemView.findViewById(R.id.composer_text_view);
+        TextView composerTextView = listItemView.findViewById(R.id.composer_text_view);
         // Get the version name from the current AndroidFlavor object and
         // set this text on the name TextView
         composerTextView.setText(currentSoundtrack.getComposer());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
-        TextView songTextView = (TextView) listItemView.findViewById(R.id.song_text_view);
+        TextView songTextView = listItemView.findViewById(R.id.song_text_view);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
         songTextView.setText(currentSoundtrack.getSong());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
-        TextView movieTextView = (TextView) listItemView.findViewById(R.id.movie_text_view);
+        TextView movieTextView = listItemView.findViewById(R.id.movie_text_view);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
         movieTextView.setText(currentSoundtrack.getMovie());

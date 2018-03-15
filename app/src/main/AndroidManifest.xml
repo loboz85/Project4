@@ -39,7 +39,7 @@
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name="com.example.android.Project4.After1990"
-            android:label="@string/after_1990"
+            android:label="@string/after1990"
             android:parentActivityName=".MainActivity"/>
         <activity
             android:name="com.example.android.Project4.After2000"

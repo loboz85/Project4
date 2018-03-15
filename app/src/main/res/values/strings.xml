@@ -22,7 +22,7 @@
     <!-- Category name for songs before 1990 [CHAR LIMIT=20] -->
     <string name="before_1990">Music before 90s</string>
     <!-- Category name for songs after 1990 [CHAR LIMIT=20] -->
-    <string name="after_1990">Music 90s</string>
+    <string name="after1990">Music 90s</string>
     <!-- Category name for songs after 1993[CHAR LIMIT=20] -->
     <string name="after_1993">Music 90s vol. II</string>
 
